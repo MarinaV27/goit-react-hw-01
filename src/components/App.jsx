@@ -2,7 +2,7 @@ import Profile from "./Profile"
 import userData from "../userData.json"
 import friends from "../friends.json"
 import FriendList from "./FriendList"
-import FriendListItem from "./FriendListItem"
+
 
 export default function App() {
     
@@ -16,7 +16,7 @@ export default function App() {
     stats={userData.stats}
     />
     <FriendList friends={friends} />
-    <FriendListItem />
+   
 
     </>
    )
