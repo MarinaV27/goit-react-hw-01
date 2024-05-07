@@ -36,6 +36,7 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     overflow: hidden;
+    background-color: ivory;
   }
   .image {
     background-color: rgb(105, 106, 104);
@@ -52,7 +53,7 @@ body {
     justify-content: space-around;
     font-size: 30px;
     border-top: 3px solid grey;
-    background-color: rgb(223, 213, 213);
+    background-color: rgb(248, 242, 242);
   }
   .item {
     display: flex;
@@ -74,6 +75,7 @@ body {
     color: grey;
     text-align: center;
     padding-bottom: 0;
+    font-weight: 300;
   }
   .userlocation {
     font-size: 20px;
