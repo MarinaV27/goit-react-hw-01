@@ -6,13 +6,13 @@ export default function Profile({image, name, tag, location, stats}){
     return (
 <div className={css.card}>
  <div className={css.image}>
-      <img className={css.pic}
+      <img className={css.image}
        src={image}
        alt="User avatar"
       />
-  <p className={css.name} >{name}</p>
+  <p className={css.username} >{name}</p>
   <p className={css.usertag} >@{tag}</p>
-  <p className={css.userlocstion} >{location}</p>
+  <p className={css.userlocation} >{location}</p>
  </div>
 
  <ul className={css.list} >
@@ -31,5 +31,5 @@ export default function Profile({image, name, tag, location, stats}){
  </ul>
 </div>
 
-    )
+    );
 }
