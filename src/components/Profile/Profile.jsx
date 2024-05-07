@@ -1,7 +1,7 @@
 import css from "./Profile.module.css";
 
 
-export default function Profile({user: {image, name, tag, location, stats},}){
+export default function Profile({image, name, tag, location, stats}){
      
     return (
 <div className={css.card}>
